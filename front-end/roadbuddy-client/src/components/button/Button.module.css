@@ -1,0 +1,114 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* приблизно gap-2 */
+  white-space: nowrap;
+  border-radius: 0.375rem; /* 6px */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+  outline-offset: 2px;
+  /* Щоб svg не кликався */
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.btn svg {
+  pointer-events: none;
+  width: 1rem;  /* size-4 - 16px */
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* Variants */
+
+.btn-default {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+}
+
+.btn-default:hover:not(:disabled) {
+  background-color: #2563eb; /* blue-600 */
+}
+
+.btn-destructive {
+  background-color: #ef4444; /* red-500 */
+  color: white;
+}
+
+.btn-destructive:hover:not(:disabled) {
+  background-color: #dc2626; /* red-600 */
+}
+
+.btn-outline {
+  background-color: white;
+  border: 1px solid #d1d5db; /* gray-300 */
+  color: #111827; /* gray-900 */
+}
+
+.btn-outline:hover:not(:disabled) {
+  background-color: #f3f4f6; /* gray-100 */
+  color: #1f2937; /* gray-800 */
+}
+
+.btn-secondary {
+  background-color: #6b7280; /* gray-500 */
+  color: white;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: #4b5563; /* gray-600 */
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #111827;
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: #3b82f6;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 0;
+}
+
+.btn-link:hover:not(:disabled) {
+  text-decoration: underline;
+}
+
+/* Sizes */
+
+.btn-default-size {
+  height: 40px; /* 10 * 4px */
+  padding: 0 16px;
+}
+
+.btn-sm {
+  height: 36px; /* 9 * 4px */
+  padding: 0 12px;
+  border-radius: 6px;
+}
+
+.btn-lg {
+  height: 44px; /* 11 * 4px */
+  padding: 0 32px;
+  border-radius: 6px;
+}
+
+.btn-icon {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  justify-content: center;
+}

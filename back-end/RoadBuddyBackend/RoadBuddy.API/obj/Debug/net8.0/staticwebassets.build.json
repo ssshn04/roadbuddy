@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CC5wF/VkLQ4JvbYEa8rNnK2ovyIY7QHpsp45AwdyWtA=",
+  "Source": "RoadBuddy.API",
+  "BasePath": "_content/RoadBuddy.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

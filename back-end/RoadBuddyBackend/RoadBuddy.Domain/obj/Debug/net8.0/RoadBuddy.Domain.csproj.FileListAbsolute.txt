@@ -1,0 +1,12 @@
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\bin\Debug\net8.0\RoadBuddy.Domain.deps.json
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\bin\Debug\net8.0\RoadBuddy.Domain.dll
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\bin\Debug\net8.0\RoadBuddy.Domain.pdb
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.csproj.AssemblyReference.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.AssemblyInfoInputs.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.AssemblyInfo.cs
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.dll
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\refint\RoadBuddy.Domain.dll
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.pdb
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\ref\RoadBuddy.Domain.dll

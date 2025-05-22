@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 13% 95%;
+    --foreground: 224 39% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 39% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 39% 11%;
+
+    --primary: 39 92% 51%;
+    --primary-foreground: 224 39% 11%;
+
+    --secondary: 227 67% 33%;
+    --secondary-foreground: 225 8% 98%;
+
+    --muted: 220 10% 90%;
+    --muted-foreground: 224 25% 45%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 225 8% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 88%;
+    --input: 220 13% 88%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 225 8% 98%;
+
+    --card: 222 47% 14%;
+    --card-foreground: 225 8% 98%;
+
+    --popover: 222 47% 14%;
+    --popover-foreground: 225 8% 98%;
+
+    --primary: 39 92% 51%;
+    --primary-foreground: 224 39% 11%;
+
+    --secondary: 227 67% 25%;
+    --secondary-foreground: 225 8% 98%;
+
+    --muted: 222 40% 20%;
+    --muted-foreground: 225 8% 70%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 225 8% 98%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 222 40% 20%;
+    --input: 222 40% 20%;
+    --ring: 217 91% 60%;
+  }
+
+  body {
+    font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: hsl(var(--primary));
+  }
+  .text-primary-foreground {
+    color: hsl(var(--primary-foreground));
+  }
+}
+
+
+@layer utilities {
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+  .border-border {
+    border-color: hsl(var(--border));
+  }
+}

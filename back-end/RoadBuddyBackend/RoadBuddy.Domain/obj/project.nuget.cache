@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Opnd/RXlcrpCaqkQT+y4qOIdVKrdehxCADf2eRcEHMJxGgbO8O50FOK3J96mD3vFuVyC5F/x/vsUsBAxzzp7Vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ssshn\\roadbuddy\\back-end\\RoadBuddyBackend\\RoadBuddy.Domain\\RoadBuddy.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ssshn\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ssshn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ssshn\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ssshn\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ssshn\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
