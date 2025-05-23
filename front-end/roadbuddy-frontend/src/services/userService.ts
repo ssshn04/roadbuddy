@@ -18,12 +18,11 @@ export interface UserProfileDto {
 }
 
 export async function fetchUserProfile(): Promise<UserProfileDto> {
-  const response = await fetch('/api/profile/me', {
+  const response = await fetch('http://localhost:5041/api/profile/me', {
     headers: {
       'Content-Type': 'application/json',
-      // Якщо потрібен токен, можна додати Authorization: `Bearer ${token}`
     },
-    credentials: 'include' // щоб cookie або токени зберігалися, якщо є авторизація по cookie
+    credentials: 'include'
   });
   if (!response.ok) {
     throw new Error('Failed to fetch user profile');

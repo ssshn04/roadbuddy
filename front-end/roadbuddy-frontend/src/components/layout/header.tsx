@@ -19,9 +19,9 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { label: 'Черги на кордоні', href: '/queues' },
+    { label: 'Черги на кордоні', href: '/queue/register' },
     { label: 'Пошук палива', href: '/fuel' },
-    { label: 'Планувальник маршруту', href: '/planner' },
+    { label: 'Мої черги', href: '/queue/active' },
   ];
 
   return (
