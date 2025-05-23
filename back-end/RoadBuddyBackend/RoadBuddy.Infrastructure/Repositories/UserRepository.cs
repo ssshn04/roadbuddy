@@ -32,5 +32,15 @@ namespace RoadBuddy.Infrastructure.Repositories
                 .Include(u => u.Reviews)
                 .FirstOrDefaultAsync(u => u.UserName == userName, cancellationToken);
         }
+
+        public async Task<Guid?> GetUserIdByUserNameAsync(string userName, CancellationToken cancellationToken)
+        {
+            var user = await _context.Users
+                .Where(u => u.UserName == userName)
+                .Select(u => u.Id)
+                .FirstOrDefaultAsync(cancellationToken);
+
+            return user == Guid.Empty ? null : user;
+        }
     }
 }

@@ -6,6 +6,7 @@ C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\ne
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.AssemblyInfoInputs.cache
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.AssemblyInfo.cs
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.sourcelink.json
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\refint\RoadBuddy.Domain.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Domain\obj\Debug\net8.0\RoadBuddy.Domain.pdb

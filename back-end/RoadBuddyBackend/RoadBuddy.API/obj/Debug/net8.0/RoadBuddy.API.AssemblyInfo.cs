@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoadBuddy.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3f88a618b5031a59951b4613cfd12596e5d524")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoadBuddy.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoadBuddy.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

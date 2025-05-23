@@ -2,11 +2,6 @@
 using RoadBuddy.Application.DTOs.QueueRegister;
 using RoadBuddy.Application.Interfaces;
 using RoadBuddy.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoadBuddy.Application.Commands.RegisterQueque.Create
 {
@@ -31,14 +26,14 @@ namespace RoadBuddy.Application.Commands.RegisterQueque.Create
                 BorderPointId = request.BorderPointId,
                 EnqueuedAt = DateTime.UtcNow,
                 Position = nextPosition,
-                EstimatedWaitTime = TimeSpan.FromMinutes(5 * nextPosition) // наприклад, 5 хв на позицію
+                EstimatedWaitTime = TimeSpan.FromMinutes(5 * nextPosition) 
             };
 
             await _unitOfWork.QueueEntryRepository.AddAsync(queueEntry);
 
             // 3. Збільшуємо Load у BorderPoint
             var borderPoint = await _unitOfWork
-                .BorderPointRepository // тут має бути репозиторій BorderPoint, але його поки немає в UnitOfWork
+                .BorderPointRepository 
                 .GetByIdAsync(request.BorderPointId);
 
             if (borderPoint == null)

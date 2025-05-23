@@ -5,6 +5,7 @@ namespace RoadBuddy.Application.Interfaces
     {
         Task<bool> IsEmailTakenAsync(string email, CancellationToken cancellationToken);
         Task AddUserAsync(User user, CancellationToken cancellationToken);
+        Task<Guid?> GetUserIdByUserNameAsync(string userName, CancellationToken cancellationToken);
         Task<User?> GetByUserNameAsync(string userName, CancellationToken cancellationToken);
         
     }

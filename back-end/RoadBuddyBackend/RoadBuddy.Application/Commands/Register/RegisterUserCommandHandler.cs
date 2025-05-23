@@ -2,13 +2,13 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Identity;  
 using RoadBuddy.Application.Interfaces;
 using RoadBuddy.Domain.Entities;
 using RoadBuddy.Domain.Enums;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-
 
 namespace RoadBuddy.Application.Commands.Register
 {
@@ -17,6 +17,7 @@ namespace RoadBuddy.Application.Commands.Register
         private readonly IUnitOfWork _unitOfWork;
         private readonly IConfiguration _configuration;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly PasswordHasher<User> _passwordHasher; 
 
         public RegisterUserCommandHandler(
             IUnitOfWork unitOfWork,
@@ -26,6 +27,7 @@ namespace RoadBuddy.Application.Commands.Register
             _unitOfWork = unitOfWork;
             _configuration = configuration;
             _httpContextAccessor = httpContextAccessor;
+            _passwordHasher = new PasswordHasher<User>();  
         }
 
         public async Task<string> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
@@ -48,13 +50,14 @@ namespace RoadBuddy.Application.Commands.Register
             {
                 UserName = dto.UserName,
                 Email = dto.Email,
-                PasswordHash = dto.Password,  // Звичайно, краще хешувати пароль окремо
                 Role = role
             };
 
+            // Хешування паролю
+            user.PasswordHash = _passwordHasher.HashPassword(user, dto.Password);
+
             await _unitOfWork.UserRepository.AddUserAsync(user, cancellationToken);
 
-            // Зберігаємо всі зміни централізовано через UnitOfWork
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
             // Генерація токену

@@ -11,6 +11,7 @@ C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBuddy.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBuddy.Infrastructure.AssemblyInfo.cs
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBuddy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBuddy.Infrastructure.sourcelink.json
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBudd.B8F9894B.Up2Date
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\RoadBuddy.Infrastructure.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Infrastructure\obj\Debug\net8.0\refint\RoadBuddy.Infrastructure.dll

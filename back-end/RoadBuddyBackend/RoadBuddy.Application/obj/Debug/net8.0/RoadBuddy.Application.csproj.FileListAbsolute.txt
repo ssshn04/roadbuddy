@@ -1,4 +1,5 @@
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Application.deps.json
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Application.runtimeconfig.json
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Application.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Application.pdb
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Domain.dll
@@ -8,10 +9,10 @@ C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Deb
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.AssemblyInfoInputs.cache
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.AssemblyInfo.cs
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.csproj.CoreCompileInputs.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.sourcelink.json
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBudd.7C5D3AF3.Up2Date
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\refint\RoadBuddy.Application.dll
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.pdb
-C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\ref\RoadBuddy.Application.dll
-C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\bin\Debug\net8.0\RoadBuddy.Application.runtimeconfig.json
 C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\RoadBuddy.Application.genruntimeconfig.cache
+C:\Users\ssshn\roadbuddy\back-end\RoadBuddyBackend\RoadBuddy.Application\obj\Debug\net8.0\ref\RoadBuddy.Application.dll

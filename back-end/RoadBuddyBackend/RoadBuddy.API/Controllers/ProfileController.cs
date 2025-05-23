@@ -9,7 +9,7 @@ namespace RoadBuddy.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    //[Authorize]  
+    [Authorize]  
     public class ProfileController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -19,7 +19,7 @@ namespace RoadBuddy.Api.Controllers
             _mediator = mediator;
         }
 
-        /*[HttpGet("me")]
+       [HttpGet("me")]
         public async Task<ActionResult<UserProfileDto>> GetMyProfile()
         {            
             var userName = User.FindFirstValue(ClaimTypes.Name);
@@ -33,22 +33,22 @@ namespace RoadBuddy.Api.Controllers
                 return NotFound();
 
             return Ok(profile);
-        }*/
-
-        [HttpGet("{username}")]        
-        public async Task<ActionResult<UserProfileDto>> GetProfileByUsername(string username)
-        {
-            if (string.IsNullOrEmpty(username))
-                return BadRequest("Username must be provided");
-
-            var query = new GetUserProfileQuery(username);
-            var profile = await _mediator.Send(query);
-
-            if (profile == null)
-                return NotFound();
-
-            return Ok(profile);
         }
+        /*
+       [HttpGet("{username}")]        
+       public async Task<ActionResult<UserProfileDto>> GetProfileByUsername(string username)
+       {
+           if (string.IsNullOrEmpty(username))
+               return BadRequest("Username must be provided");
+
+           var query = new GetUserProfileQuery(username);
+           var profile = await _mediator.Send(query);
+
+           if (profile == null)
+               return NotFound();
+
+           return Ok(profile);
+       }*/
 
     }
 }
